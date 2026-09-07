@@ -1,36 +1,45 @@
-Experiment-07-Pick-and-place-of-objects-using-Dobot-magician-robot
-AIM:
-Experiment-07-Pick and place of objects using Dobot magician robot
+# Experiment-07: Pick and Place of Objects Using Dobot Magician Robot
 
-APPARATUS REQUIRED:
-Dobot Magician Robot 1.Controller / Power supply 2.Gripper or suction cup 3.Object to be picked 4.Computer with Dobot software 5.USB cable 6.Work platform
+## AIM
 
-ALOGRITHM:
-1.Connect the Dobot Magician to the power supply and computer.
+To perform the **pick-and-place operation of an object using the Dobot Magician robotic arm** by programming the robot to pick an object from one position and place it at another position.
 
-2.Turn ON the robot.
+---
 
-3.Open the Dobot control software.
+## APPARATUS REQUIRED
 
-4.Select the appropriate end-effector (gripper/suction cup).
+1. Dobot Magician Robot
+2. Controller / Power Supply
+3. Gripper or Suction Cup
+4. Object to be Picked
+5. Computer with Dobot Control Software
+6. USB Cable
+7. Work Platform
 
-5.Move the robot manually to the Home position and record it.
+---
 
-6.Move the robot to the object’s pick position.
+## THEORY
 
-7.Record the position.
+The **pick-and-place operation** is one of the basic applications of industrial robots. It involves moving an object from one location to another using a robotic manipulator.
 
-8.Activate the gripper/suction cup to hold the object.
+The Dobot Magician uses an end-effector such as a **gripper or suction cup** to hold the object. The robot moves to the pick position, activates the end-effector, lifts the object, moves to the desired place position, and releases the object.
 
-9.Move the robot upward to safely lift the object.
+### Basic Sequence
 
-10.Move the robot to the required place position.
-
-11.Deactivate the gripper/suction cup to release the object.
-
-12.Move the robot back to the Home position.
-
-13.Run the programmed sequence and verify that the object is successfully picked and placed.
-
+```text
+HOME
+  ↓
+PICK POSITION
+  ↓
+GRIP / SUCTION ON
+  ↓
+LIFT OBJECT
+  ↓
+PLACE POSITION
+  ↓
+GRIP / SUCTION OFF
+  ↓
+HOME
+```
 RESULT:
 <img width="1600" height="1200" alt="image" src="https://github.com/user-attachments/assets/c9f8951b-51f6-495b-bf36-d0b09fa09241" />
