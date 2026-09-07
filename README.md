@@ -1,4 +1,3 @@
-README
 Experiment-07-Pick-and-place-of-objects-using-Dobot-magician-robot
 AIM:
 Experiment-07-Pick and place of objects using Dobot magician robot
